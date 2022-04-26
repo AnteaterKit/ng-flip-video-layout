@@ -1,0 +1,59 @@
+.main-screen {
+    height: 100vh;
+    background-color: #0E0E0E;
+    padding: 56px;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.record {
+    width: 25px;
+    height: 25px;
+    background-color: #BC1010;
+    border-radius: 25px;
+    margin-right: 16px;
+}
+
+.btns {
+    margin-left: auto;
+    display: flex;
+    gap: 24px;
+    &__item {
+        cursor: pointer;
+    }
+}
+
+.video-container {
+    position: relative;
+    display: flex;
+    gap: 24px;
+    height: calc(100% - 200px);
+    margin-top: 32px;
+}
+
+.video-item {
+    background-color: #608AF6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-item img {
+    width: 150px;
+}
+
+.video-main {
+    width: calc(80% - 15px);
+}
+
+.video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: calc(20% - 0px);
+}
